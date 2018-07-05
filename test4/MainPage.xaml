@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:test4" x:Class="test4.MainPage" >
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <ScrollView>
+        <StackLayout Padding="10,10,10,0" Spacing="20">    
+            <Label Text="Д е с и " HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontAttributes = "Bold" TextColor="Green" Rotation="-25" FontSize="35"/>
+            <Label Text="г н" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontAttributes = "Bold" TextColor="Green" Rotation="25" FontSize="35"/>
+       
+            <!--<Entry x:Name="MsgTo" Placeholder="PhoneNumber" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="Message" Placeholder="MessageText" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="SMS"   Clicked="BtnSend_Click" BackgroundColor="White"/>    
+  
+        
+            <Entry x:Name="PhoneNumber" Placeholder="PhoneNumber" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="CALL"  Clicked="BtnCall_Click" BackgroundColor="White"/>  
+          
+      
+            <Entry x:Name="EmailTo" Placeholder="EmailTo" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="EmailSubject" Placeholder="Subject" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="EmailBody" Placeholder="MessageText" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="EMAIL" Clicked="BtnEmail_Click" BackgroundColor="White"/>-->
+     </StackLayout>  
+    </ScrollView>
+</ContentPage>
